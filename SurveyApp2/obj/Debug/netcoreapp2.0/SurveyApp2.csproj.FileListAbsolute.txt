@@ -1,0 +1,16 @@
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\SurveyApp2.deps.json
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\SurveyApp2.runtimeconfig.json
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\SurveyApp2.runtimeconfig.dev.json
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\SurveyApp2.dll
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\SurveyApp2.pdb
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\obj\Debug\netcoreapp2.0\SurveyApp2.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\obj\Debug\netcoreapp2.0\SurveyApp2.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\obj\Debug\netcoreapp2.0\SurveyApp2.AssemblyInfoInputs.cache
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\obj\Debug\netcoreapp2.0\SurveyApp2.AssemblyInfo.cs
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\obj\Debug\netcoreapp2.0\SurveyApp2.dll
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\obj\Debug\netcoreapp2.0\SurveyApp2.pdb
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\SurveyAppClassLibrary.dll
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\EntityFramework.dll
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\SurveyAppClassLibrary.pdb
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\SurveyAppClassLibrary.dll.config
+C:\Users\Chris\Source\Repos\SurveyApp2\SurveyApp2\bin\Debug\netcoreapp2.0\EntityFramework.xml

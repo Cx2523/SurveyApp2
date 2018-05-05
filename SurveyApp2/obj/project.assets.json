@@ -4746,6 +4746,15 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "SurveyAppClassLibrary/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SurveyAppClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SurveyAppClassLibrary.dll": {}
+        }
       }
     }
   },
@@ -12527,12 +12536,18 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "SurveyAppClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../SurveyApp/SurveyAppClassLibrary/SurveyAppClassLibrary.csproj",
+      "msbuildProject": "../../SurveyApp/SurveyAppClassLibrary/SurveyAppClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.6",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "SurveyAppClassLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12567,7 +12582,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Chris\\Source\\Repos\\SurveyApp\\SurveyAppClassLibrary\\SurveyAppClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\Chris\\Source\\Repos\\SurveyApp\\SurveyAppClassLibrary\\SurveyAppClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

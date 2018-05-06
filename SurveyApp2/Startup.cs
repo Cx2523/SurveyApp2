@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using SurveyAppClassLibrary.Data;
+using ClassLibrary.Data;
 using Microsoft.Extensions.Configuration;
 
 namespace SurveyApp2
@@ -16,19 +16,18 @@ namespace SurveyApp2
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-        public IConfiguration Configuration { get; }
 
-
-        public Startup(IConfiguration configuration   )
-        {
-            Configuration = configuration
-        }        
+        public static IConfiguration Configuration { get; set; }
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<Context>(options => options.UseSqlServer(Configuration.GetConnectionString("Context")));
+            services.AddDbContext<Context>(options =>
+                options.UseSqlServer("Server=PCONAMAC\\SQLEXPRESS;Database=SurveyAppDb;Trusted_Connection=True;MultipleActiveResultSets=true"));
+
             services.AddMvc();
         }
+
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

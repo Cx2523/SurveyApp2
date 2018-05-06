@@ -1,0 +1,9 @@
+C:\Users\Chris\Source\Repos\SurveyApp2\ClassLibrary\bin\Debug\netcoreapp2.0\ClassLibrary.deps.json
+C:\Users\Chris\Source\Repos\SurveyApp2\ClassLibrary\bin\Debug\netcoreapp2.0\ClassLibrary.dll
+C:\Users\Chris\Source\Repos\SurveyApp2\ClassLibrary\bin\Debug\netcoreapp2.0\ClassLibrary.pdb
+C:\Users\Chris\Source\Repos\SurveyApp2\ClassLibrary\obj\Debug\netcoreapp2.0\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Source\Repos\SurveyApp2\ClassLibrary\obj\Debug\netcoreapp2.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Source\Repos\SurveyApp2\ClassLibrary\obj\Debug\netcoreapp2.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Chris\Source\Repos\SurveyApp2\ClassLibrary\obj\Debug\netcoreapp2.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\Chris\Source\Repos\SurveyApp2\ClassLibrary\obj\Debug\netcoreapp2.0\ClassLibrary.dll
+C:\Users\Chris\Source\Repos\SurveyApp2\ClassLibrary\obj\Debug\netcoreapp2.0\ClassLibrary.pdb

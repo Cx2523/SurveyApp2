@@ -23,9 +23,9 @@
     ".NETCoreApp,Version=v2.0": {
       "SurveyApp2/1.0.0": {
         "dependencies": {
+          "ClassLibrary": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.6",
-          "Microsoft.NETCore.App": "2.0.0",
-          "SurveyAppClassLibrary": "1.0.0"
+          "Microsoft.NETCore.App": "2.0.0"
         },
         "runtime": {
           "SurveyApp2.dll": {}
@@ -3795,12 +3795,15 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "SurveyAppClassLibrary/1.0.0": {
+      "ClassLibrary/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.All": "2.0.6"
+        },
         "runtime": {
-          "SurveyAppClassLibrary.dll": {}
+          "ClassLibrary.dll": {}
         },
         "compile": {
-          "SurveyAppClassLibrary.dll": {}
+          "ClassLibrary.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.0.0": {
@@ -5989,7 +5992,7 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
-    "SurveyAppClassLibrary/1.0.0": {
+    "ClassLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

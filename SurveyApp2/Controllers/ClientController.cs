@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using SurveyAppClassLibrary.Data.Repositories;
-using SurveyAppClassLibrary.Models;
+using ClassLibrary.Models;
+using ClassLibrary.Data.Repositories;
+using ClassLibrary.Data;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -13,12 +14,19 @@ namespace SurveyApp2.Controllers
     [Route("api/[controller]")]
     public class ClientController : Controller
     {
-        private UnitOfWork unitOfWork = new UnitOfWork();
+        private readonly ClientRepository _clientRepo;
+        private Context _context;
+
+        public ClientController(Context context)
+        {
+            _context = context;
+            _clientRepo = new ClientRepository(_context);
+        }
         // GET: api/<controller>
         [HttpGet]
         public IEnumerable<Client> Get()
         {
-            var clients = unitOfWork.ClientRepository.GetClients();
+            var clients = _clientRepo.GetClients();
 
             return (clients);
 

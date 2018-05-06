@@ -4747,13 +4747,17 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "SurveyAppClassLibrary/1.0.0": {
+      "ClassLibrary/1.0.0": {
         "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.All": "2.0.6"
+        },
         "compile": {
-          "bin/placeholder/SurveyAppClassLibrary.dll": {}
+          "bin/placeholder/ClassLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SurveyAppClassLibrary.dll": {}
+          "bin/placeholder/ClassLibrary.dll": {}
         }
       }
     }
@@ -12537,17 +12541,17 @@
         "windowsazure.storage.nuspec"
       ]
     },
-    "SurveyAppClassLibrary/1.0.0": {
+    "ClassLibrary/1.0.0": {
       "type": "project",
-      "path": "../../SurveyApp/SurveyAppClassLibrary/SurveyAppClassLibrary.csproj",
-      "msbuildProject": "../../SurveyApp/SurveyAppClassLibrary/SurveyAppClassLibrary.csproj"
+      "path": "../ClassLibrary/ClassLibrary.csproj",
+      "msbuildProject": "../ClassLibrary/ClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "ClassLibrary >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.6",
-      "Microsoft.NETCore.App >= 2.0.0",
-      "SurveyAppClassLibrary >= 1.0.0"
+      "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -12583,8 +12587,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Chris\\Source\\Repos\\SurveyApp\\SurveyAppClassLibrary\\SurveyAppClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\Chris\\Source\\Repos\\SurveyApp\\SurveyAppClassLibrary\\SurveyAppClassLibrary.csproj"
+            "C:\\Users\\Chris\\Source\\Repos\\SurveyApp2\\ClassLibrary\\ClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\Chris\\Source\\Repos\\SurveyApp2\\ClassLibrary\\ClassLibrary.csproj"
             }
           }
         }

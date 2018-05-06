@@ -1,4 +1,13 @@
 {
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=PCONAMAC\\SQLEXPRESS;Database=SurveyAppDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
